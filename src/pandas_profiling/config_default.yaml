@@ -99,6 +99,13 @@ correlations:
       warn_high_correlations: True
       threshold: 0.9
 
+# Spark specific config - not used here
+spark:
+    persist: True
+    quantile_error: 0.05
+    scatter: False
+    to_pandas_limit: 250
+    length_values_sample: 10000
 
 # Bivariate / Pairwise relations
 interactions:
