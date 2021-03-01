@@ -74,3 +74,5 @@ playground/
 # mypy
 .mypy_cache/
 /data/
+config.bat
+node_modules
